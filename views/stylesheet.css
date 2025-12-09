@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+textarea
+{
+    font-family: inherit;    
+}
+
+form {
+    border: 1px solid black;
+    width: 90%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+form label {
+    display: block;
+    font-size: 0.8em;
+    color: darkslategrey;
+    padding-left: 3px;    
+}
+
+input,
+textarea
+{
+    width: 100%;
+    font-size: 1.1em; 
+    padding: 4px;
+    font-family: inherit;
+    font-weight: lighter;
+    border:1px solid gray;
+    outline: none;
+    border-radius: 0.3em;
+}    
+
+input:focus,
+textarea:focus { 
+    border:1px solid olivedrab;
+}
+
+input[type=submit] {
+    background-color: limegreen;
+    cursor: pointer;
+    width: 14em;
+    padding: .3em 0;
+    border-radius: 0.7em;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    box-shadow: 2px 2px 2px grey;
+}
