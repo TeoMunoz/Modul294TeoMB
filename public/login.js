@@ -11,6 +11,8 @@ function onFormSubmitted(event) {
 
     request.open("POST", "https://campus.csbe.ch/uek294/api/v1/authenticate");
 
+    request.withCredentials = true;
+
     request.onload = function (event) {
         console.log("Status:", request.status);
 
