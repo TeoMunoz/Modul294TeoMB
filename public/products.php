@@ -1,4 +1,4 @@
 <?php include "../views/header.php"; ?>
-    <h1>Home page</h1>
+    <h1>Products</h1>
 </body>
 </html>
