@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="../views/stylesheet.css">
+    <script src="logout.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
             <a href="categorys.php">
                 Categorys
             </a>
-            <a href="" id="logout">
+            <a href="index.php" id="logoutBtn">
                 Log out
             </a>
         </ul>
